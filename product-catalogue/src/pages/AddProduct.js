@@ -39,7 +39,7 @@ export default function AddProduct() {
         <label htmlFor="url">IMAGE URL:</label>
         <input type="text" className="form-control" {...register("image", { required: true })} placeholder="Insert image URL" />
       </div>
-      <button>ADD PRODUCT</button>
+      <button type="button" className="addProductBtn">ADD PRODUCT!</button>
     </form>
   )
 }

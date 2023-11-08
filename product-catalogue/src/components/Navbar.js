@@ -13,30 +13,22 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to='/'>Home</Link>
+                                <Link className="nav-link active" aria-current="page" to='/'>HOME</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to='/about'>About Us</Link>
+                                <Link className="nav-link" to='/about'>ABOUT US</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to='/products'>Products</Link>
+                                <Link className="nav-link" to='/products'>CATALOGUE</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to='/addproduct'>Add Product</Link>
+                                <Link className="nav-link active" aria-current="page" to='/addproduct'>ADD PRODUCT</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to='/contact'>Contacts</Link>
-                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
+                                <Link className="nav-link" to='/contact'>CONTACT US</Link>
+                                
                             </li>
                         </ul>
-                        <form className="d-flex">
-                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
-                            <button className="btn btn-outline-light" type="submit">Search</button>
-                        </form>
                     </div>
                 </div>
             </nav>

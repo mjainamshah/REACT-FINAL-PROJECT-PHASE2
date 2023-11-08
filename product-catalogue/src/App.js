@@ -13,7 +13,9 @@ import Footer from './components/Footer'
 function App() {
   return (
     <>
+    <div>
     <Navbar />
+    </div>
     <Routes>
       <Route path='/' element={<LandingPage />} />
       <Route path='/about' element={<About />} />
@@ -21,7 +23,9 @@ function App() {
       <Route path="/product/:productId" element={<SingleProduct />} />
       <Route path='/addproduct' element={<AddProduct />} />
     </Routes>
+    <div>
     <Footer />
+    </div>
 
     </>
   );
