@@ -1,15 +1,15 @@
 import React from 'react'
-import img1 from '../images/img1.jpg'
-import img2 from '../images/img2.jpg'
-import img3 from '../images/img3.jpg'
-import img4 from '../images/img4.jpg'
-import img5 from '../images/img5.jpg'
+import img0 from '../images/img0.jpeg'
+import img2 from '../images/img2.png'
+import img3 from '../images/img3.png'
+import img4 from '../images/img4.jpeg'
+import img5 from '../images/img5.jpeg'
 
 export default function LandingPage() {
   return (
-    <div className="container my-2 mx-auto">
+    <div className="container mx-auto">
       <div>
-        <div id="carouselExample" className="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
+        <div id="carouselExample" className="carousel slide" data-bs-ride="carousel" data-bs-interval="1600">
           <ol className="carousel-indicators">
             <li data-bs-target="#carouselExample" data-bs-slide-to="0" className="active"></li>
             <li data-bs-target="#carouselExample" data-bs-slide-to="1"></li>
@@ -19,7 +19,7 @@ export default function LandingPage() {
           </ol>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img className="d-block w-100" src={img1} alt="First slide" />
+              <img className="d-block w-100" src={img0} alt="First slide" />
             </div>
             <div className="carousel-item">
               <img className="d-block w-100" src={img2} alt="Second slide" />

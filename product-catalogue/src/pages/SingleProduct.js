@@ -33,11 +33,11 @@ export default function SingleProduct() {
             <img className="card-img-top mb-5 mb-md-0" src={product.image} alt={product.title} />
           </div>
           <div className="col-md-6">
-            <h1 className="display-5 fw-bolder">{product.title}</h1>
-            <div className="fs-5 mb-3">
+            <h1 className="singleTitle">{product.title}</h1>
+            <div className="singlePrice mb-3">
               <span>{product.price}KSH</span>
             </div>
-            <p className="lead">{product.description}</p>
+            <p className="singleDescription">{product.description}</p>
             <button onClick={handleEdit}>EDIT</button>
             <button onClick={handleDelete}>DELETE</button>
           </div>
