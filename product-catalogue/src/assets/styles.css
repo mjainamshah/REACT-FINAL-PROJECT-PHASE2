@@ -1,5 +1,24 @@
 .products .single__product .part1 {
-    height: 290px;
+    height:290px;
     max-height: 290px;
     position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    
 }
+.products .header {
+    margin-bottom: 50px;
+}
+
+.products .header h2 {
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+.products .single__product .part2 .product__title {
+    font-size: 1rem;
+  }
+  
+.products .single__product .part2 h4 {
+    display: inline-block;
+    font-size: 1rem;
+  }
