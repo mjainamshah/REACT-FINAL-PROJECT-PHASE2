@@ -3,6 +3,7 @@
     {
       "id": 1,
       "title": "SLEDGE HAMMER",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "A POWERFUL & HEAVY tool used in various applications, primarily for heavy-duty demolition, construction, and industrial tasks!",
       "image": "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/355850604_763659825759656_5202353560773312753_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFGXg-_soOB9L9a0zA2itUgnqkcOgbHUQieqRw6BsdRCFOa8W9DdYrNNqlaJ6U3iUc&_nc_ohc=FdVIWvpmniAAX_-MnyG&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfCFBCxJFnJoAgAX_6aORzuPQJuTcLeU5lAwrL0B1UdkNw&oe=654E7EDC"
@@ -10,6 +11,7 @@
     {
       "id": 2,
       "title": "TAPE MEASURE",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "An AUTO-LOCKING tape measure, has the mechanism that AUTOMATICALLY locks the tape in place once you have extended it to the desired length!",
       "image": "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/311465103_551682490290725_2850012700146536594_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHLzkvBQiUf5jI3uZsuM9nGU112dNN2tKVTXXZ003a0pVDeuKFAASnBS14JmJw4viE&_nc_ohc=6VAeOGDGWIAAX_8o0m4&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfCDzDFdYb59M2hYvvaumXNSHBzML3aFM--hBBqu15CSDg&oe=654FBCF2"
@@ -17,6 +19,7 @@
     {
       "id": 3,
       "title": "HAND CHISEL",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "Most common used tool for CARRVING & SHAPING hard materials such as Wood, Stone, & Metal!",
       "image": "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/338961986_586719943192638_3171367640647684340_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHxRdm-RJ6SiOIPy2NxzUFyFNrq08aBZAwU2urTxoFkDKnCZrqIY4qgDWWhteHGKS0&_nc_ohc=Ni4uOXrngnAAX-kpIdz&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfAD8Eulh8CY7V2yYwaglY4MXO6x-QOjb8Yy72sUrOBW3Q&oe=654DFF6D"
@@ -24,6 +27,7 @@
     {
       "id": 4,
       "title": "PADLOCKS",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "Introducing the ultimate security solution that stands strong in an uncertain world. Our MINDY Padlocks are not just locks; they are a promise of unwavering protection and peace of mind.",
       "image": "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/395454193_847616464030658_2970354641306411026_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEcQDSIQjkX4eT9CwwSUBgox3LLIguhLgjHcssiC6EuCA5mpuvWjdtA5gNZRP5LzfM&_nc_ohc=QcjjbcoN8yoAX8yOXG1&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfDPlRPIyGga78f9e_cilvx16GuCGHidDNT7R8dMyQ2QyA&oe=654EEA1F"
@@ -31,6 +35,7 @@
     {
       "id": 5,
       "title": "HACKSAW FRAME",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "Designed to be STURDY & DURABLE to handle HEAVY-DUTY cutting tasks on metal & other tough materials!",
       "image": "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/375218561_813589777433327_1124089186902198098_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGWNqMbbqxX1yxJdvdi5oGNQY7vgi6NAENBju-CLo0AQ_Uz5Jmv5NFyeo679rVeNxM&_nc_ohc=i6IO0jl6L0QAX-8rkik&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfDBmz6zmSTxlOzXnnuvv-Sl8ARsJrmUXck17FOZwAlhPA&oe=654EBC56"
@@ -38,6 +43,7 @@
     {
       "id": 6,
       "title": "WATER PUMP",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": " Suitable for a range of RESIDENTIAL, INDUSTRIAL, & AGRICULTURAL applications where reliable water pumping is necessary!",
       "image": "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/375211723_812930437499261_654616199767531339_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFHD5-UqVFuh1l4LE5kVeTdgQuhciRXZ5aBC6FyJFdnlrHtCGqngB1RbXLbAZkT6g5lq5MI60pxGYYxTKgpoRuX&_nc_ohc=T2YXw-qC7EoAX-yE-oz&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfBNlWS938aAiXX3HBEYSo-PCf_6aYj5cO1DTF-HSOn7gw&oe=652B7CEB"
@@ -45,6 +51,7 @@
     {
       "id": 7,
       "title": "SANDFLEX BLADES",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "Are you tired of struggling with dull, unreliable hacksaw blades that slow you down on your projects? Look no further! This Hacksaw Blade is engineered to REVOLUTIONIZE your cutting experience",
       "image": "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/375218561_813589777433327_1124089186902198098_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=HcGNsQk59CsAX_DhnzB&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfAFQ-RwGZqHIY52kF6XUJCuMYPgrqvgIO61y91qFUDNGg&oe=652B23D6"
@@ -53,6 +60,7 @@
     {
       "id": 8,
       "title": "CUTTING DISCS",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "Commonly used in various industries & applications which require PRECISE cutting of hard materials, such as BRICK, STONE, MARBLE, TILES, & MASONRY!",
       "image": "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/358133625_788611409931164_9136784572833476920_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=3KOYSb3RAMwAX-OOjgm&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfAfhYGoMVZ_GhyoleAWbeBqX2JRNA1I7KMVAPrN7KGNGg&oe=652C3D38"
@@ -61,6 +69,7 @@
     {
       "id": 9,
       "title": "WINDOW FASTENERS",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "Window fasteners serve several purposes, such as enhancing security by PREVENTING unauthorized access, IMPROVING energy efficiency by sealing gaps, & allowing for CONTROLLED ventilation!",
       "image": "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/382984905_831211735671131_4789088545154245316_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFhF6DRsJTtkjOT3cigaKFpopGfnah8iiSikZ-dqHyKJOXEB14epxR3CGyfV8lyXpTg2GEykisTxyHkhFT35CKX&_nc_ohc=Rnv5gpFHmM4AX963LZi&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfAhXJXdJIt2QxPxQql0Uo2jUDL_OnTAa3gWPG38f1qeIg&oe=652C8705"
@@ -69,6 +78,7 @@
     {
       "id": 10,
       "title": "ANGLE VALVES",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "Commonly used to stop & control the flow of a fluid in a pipe, allowing you to make repairs EASILY without having to cut down the water in your entire plumbing system!",
       "image": "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/338956433_944940146628379_6486736712357372282_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF-WwLpKWa-gvJAP4tKYO0P3OvBSb8sVCzc68FJvyxULMRQb9UfCMxvwdkuS3FMrgNXXw20W-jtzBNm7UcUugNW&_nc_ohc=xgZpyv5iYXAAX8qmagV&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&oh=00_AfCcxw-zY7ZMhgQWfnJUJ9Q-lpp7_ljdtt32YepuA4vtrw&oe=652BF143"
@@ -77,6 +87,7 @@
     {
       "id": 11,
       "title": "PLASTERING TROWEL",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "This is the most common trowel when it comes to installing TILES & HARDWOOD; designed to leave notches in the adhesive allowing air to escape when the tile is pressed into for BETTER adhesion!",
       "image": "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/328538788_532617358977673_3353802542321429908_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHLghv19wi-MtfblQ3owyCV_kHFFiM_8er-QcUWIz_x6h5apPzJv5E9IUUpFKNaqTZ1-Bka6GpMst6FP6AN3af2&_nc_ohc=A-iG9dVM9LMAX-YHZd0&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&oh=00_AfBkX8rZmPQWBlxYHq5uKVdQPAPq8qeIMUKz5jNe5RGUJA&oe=652CCE0F"
@@ -85,6 +96,7 @@
     {
       "id": 12,
       "title": "STOP COCK CONCEALED",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "Suitable for environments with low water pressure. Developed for African conditions that ensure products LONGEVITY against the presence of LEAD & NICKET!",
       "image": "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/309201779_529093769216264_8735555036289527396_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGhG8TI1I7GJwe8S-xvm1XLMRyEU4KXeP0xHIRTgpd4_ZeN_DyHuZ64Jlq8tTXlMc7zI81vJ_Ng_Aaa_jKqPD_4&_nc_ohc=YCCkAkUgXg4AX8U4C9a&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfCnVb2KBJKtmJqiEMdu7pwXtFavit6nLumsl8uS7QxwlQ&oe=652C331C"
@@ -92,6 +104,7 @@
     {
       "id": 13,
       "title": "EAR PLUGS",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "Ear plugs are generally used in the workplace to help PROTECT the user’s ears from loud noises, intrusion of water, foreign bodies, dust or excessive wind. Exposure to loud noise in the workplace can lead to LOSS of hearing and/ or tinnitus (a permanent ringing in the ears)!",
       "image": "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/312349318_559603086165332_5132947745542464825_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGrAV_WVd6ypptqx_U8Z-cK_JiPWxsUrtH8mI9bGxSu0dn1VTsQ_o-c1Ls2BMrBJXIRgv9zgWl8y1wezR5UOddq&_nc_ohc=kUC36H7ZBXQAX8_mJ6n&_nc_oc=AQl_jmCIxzGZj_T452eT3HBoX7SUHcX5hX6p4iu6e3OSaUVxL3KDbQxQ3DuLF5O5vUY&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfDTytNy9FXJhOKgn5VOZXY2oxzIwUw-N1njWXp9xUJnxg&oe=652BE3D3"
@@ -100,6 +113,7 @@
     {
       "id": 14,
       "title": "TILE CUTTER",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "Now you can finally SHARPEN your tile cutter as sharp as you want to give you the perfect cut you need. Easy to handle, easy to carry! Other types of tile cutters also AVAILABLE!",
       "image": "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/327454518_1268269553786286_4740051291699113865_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE4_M-WjGxuqlvvB6MJV3G159aS2Ee1UQXn1pLYR7VRBWokdugrFAMtiJWzc31zyzP529rT7Ib7pzXyUfPt2wr2&_nc_ohc=gYUX-qzk_t4AX-J0YkH&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&oh=00_AfBuRTeDfNEF2Y4CVd-4Tm-skF-fA5ks9KxnI85sRMu4nw&oe=652CFBB9"
@@ -108,6 +122,7 @@
     {
       "id": 15,
       "title": "GATE LATCHES",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "Gate latches are an essential component for most doors & gates. They serve to both open & shut the gate, as well as helping to secure the property! Introducing in BRAND NEW CHROME COLOR!.",
       "image": "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/347449107_750439153221312_8461865982956820312_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHPN-BHsMi67-O9vsfVH-gKZ_dLJHhf2E9n90skeF_YTznuhMglQVOfjesMnr5FKGxsWRFjTVMl7X_dVbSJAA6C&_nc_ohc=Ywv6fenTjscAX-c9RLi&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&oh=00_AfA5rESuS0J6n0Xfv_9_IzKq-OWMSN1SXg22j-vyjH7aHQ&oe=652D3EDB"
@@ -116,6 +131,7 @@
     {
       "id": 16,
       "title": "FLAP DISK",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "Commonly used for GRINDING & SMOOTHING metal welds, SHAPING & POLISHING wood surfaces, REMOVING RUST & PAINT, & preparing surfaces before welding or adhesive bonding!",
       "image": "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/356023898_763662135759425_4904709691141312271_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeG8WAaBDDA65fAa9MCkymYYoRBn4PQXI-uhEGfg9Bcj66NYb5x-6IO_dJs2_6MoQTXrIqvb3sTpC55S94uhYA5Q&_nc_ohc=OJa-r7AfpikAX8hkjdF&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&oh=00_AfCTpqzGAVZjIyPzWa7yyiwSj4I-lhBizxiywbBMi2YQUQ&oe=652C848E"
@@ -124,6 +140,7 @@
     {
       "id": 17,
       "title": "TIN MAN SNIP",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "The BEST hand tool for cutting METAL SHEETS & TOUGH PLASTICS. Tin man snips look similar to ordinary scissors; however, they are much STRONGER & allow for more PRECISE CUTTING!",
       "image": "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/338958417_5981799725222985_6292523056573431841_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGWq8AiaFVz315-AL_9riR_9AoXr0xrdqT0ChevTGt2pMUD4rqSfiIy1y2eEQszoFVyxffnMa6gaarbsaeqFBvV&_nc_ohc=DeL5QxTHEXQAX80RfJf&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfANtrrNLNGB78wyBCaq81Kz_ldL8UYIse-s0ADabSNuBQ&oe=652D0577"
@@ -132,6 +149,7 @@
     {
       "id": 18,
       "title": "TOOL BOX",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "CONVENIENT STORAGE, EASY TO HANDLE, BRENNAN BRAND",
       "image": "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/374475697_817193783739593_3989459235286293836_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeF4LsvnORIoHJWFxZgNO2HhXHmIIQofY4VceYghCh9jhRlR2B8y9CAVxxjmkRdgVxE&_nc_ohc=Q1LhXrD7t1YAX89g-NM&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&oh=00_AfCJBTOkiVMRLIr91yhDiTumxRNONoce_33P1PJYtNp0-A&oe=654F4677"
@@ -140,6 +158,7 @@
     {
       "id": 19,
       "title": "PPR BALL COCK",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "Are you tired of leaks, drips and unreliable water flow control in your plumbing system? It's time to upgrade to the ultimate solution-PPR BRASS BALL COCK.",
       "image": "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/374241051_810951731030465_98505780293649572_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHR1XK6moQTePbOKmjXi0fVh0NS0YuhDM6HQ1LRi6EMzjMwfXfcKXPmZP_-Pb7heLs&_nc_ohc=LH38dXOoRdQAX-phaZR&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfBhGKoiV-TRHiz_z-h2pTT2mkEld5hYJhg-SrpXu2-M9w&oe=654FB7F4"
@@ -148,6 +167,7 @@
     {
       "id": 20,
       "title": "TILE CUTTER",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "Tile cutter is safer to use. It has a scoring wheel and a small set of jaws to break the two pieces apart. This tool works well for cutting ceramic and porcelain tiles. It works quickly and is able to make straight and diagonal cuts.",
       "image": "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/368001244_798439408948364_8199045685870631487_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFdbqwJHk_npu8se3Ki3iLVCFoYtpDy9D8IWhi2kPL0P53By5IxOEOffIhMUBVwycE&_nc_ohc=Xs2AHML7b7YAX-riGlw&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&oh=00_AfDU7UZzyO9nxDNjJfOmxqj7m1s_KUSVzkbj16NFJ_xpmA&oe=654E8A2B"
@@ -156,6 +176,7 @@
     {
       "id": 21,
       "title": "BRAZING RODS",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "Used to join two pieces of material together. These rods are designed to have a lower melting point than the base metal that is being brazed therefore, the base material itself does not melt...!",
       "image": "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/364741562_795160649276240_8537730896461074594_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGr5lG434FnXC3hOP5hOM7G906w4KQkwGr3TrDgpCTAamcGFHf9n0GiUepJ8cL6QyM&_nc_ohc=swEPGwsZNssAX-T7bd3&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfDaej_brzud4jgr8LeDNJtT9PhU5ltF21l9bOWGIWXeFg&oe=654E6697"
@@ -164,6 +185,7 @@
     {
       "id": 22,
       "title": "V-GROVE WHEELS",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "V-Groove wheels are best when used on a V-track that is designed to guide gates, racks, shelves, or tables in an intended direction. They are manufactured from industrial grade cast iron steel. V-Groove wheels provide the highest weight ratings for the heaviest loads!",
       "image": "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/358131493_788616349930670_7404615494045523519_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFYsG3LQpdqe1pc1e-6fptbFBnpxKAYo80UGenEoBijzRI6y-CMzs_0RbgnuSOSFJM&_nc_ohc=YXqcrW6HyJAAX8R_SOL&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&oh=00_AfBywdZoljeURXEEgoAemAFMiTT6QJrxmzPXS9m5M8BImQ&oe=654ED662"
@@ -171,6 +193,7 @@
     {
       "id": 23,
       "title": "FORK SHOVEL",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "The BEST hand tool DIGGING, BREAKING, & GROUNDING!",
       "image": "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/355886270_763658715759767_6138076718659783802_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHfH0HWKJ9nhPOPBvP7KlQ2pIUcnf34Zf-khRyd_fhl_y2dcYOGk5UuKXkHwiZujwg&_nc_ohc=yyKelH8F2ooAX84b1Xw&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&oh=00_AfAhsxDKLfSmboEE6ULmfXUHmBRVKwQDkm0oeNp9wZkCKA&oe=654F0D1C"
@@ -179,6 +202,7 @@
     {
       "id": 24,
       "title": "PAINT ROLLER",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "GOOD QUALITY paint roller WITH TRAY to help you make sure your paint job is EVEN & UNIFORM for that smooth & excellent velvety finish we all love!",
       "image": "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/347587988_571646054955759_7572681176390567487_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGrG823MqC3y8c0mSgEQQpOjXSwnOMAYy2NdLCc4wBjLZJzXCgmknWhoQ_7YCVn5bg&_nc_ohc=E8aXjkeFKSIAX-qgRKB&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&oh=00_AfDL2H71ptStZQixlkNavXSMngDyip0YQ3DfuTclHy5oPw&oe=654E7E0E"
@@ -187,6 +211,7 @@
     {
       "id": 25,
       "title": "ALDROPS",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "Gate latches are an essential component for most doors & gates. They serve to both open & shut the gate, as well as helping to secure the property! Introducing in BRAND NEW CHROME COLOR!.",
       "image": "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/347449107_750439153221312_8461865982956820312_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEuJb4_QcvmA9gAWUfD5_hbZ_dLJHhf2E9n90skeF_YTxrXuS0NPFvVNT84jsNixzI&_nc_ohc=pf3_5aFrFoIAX_wQACM&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&oh=00_AfBdHDNFwVg7d9snQ7Z0kkLqPnwbhCfYc4kFxn2P_TKZ0w&oe=654EDD1B"
@@ -195,6 +220,7 @@
     {
       "id": 26,
       "title": "BRACE HEAVY",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "A brace widely used hand powered drill used with a bit (DRILL BIT OR AUGER BIT) to drill holes, usually in wood!",
       "image": "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/347439368_800802101136941_4680811975178684284_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGz0ZaufdD_0RodexVVhvtwkEBXU5lAjIOQQFdTmUCMg6wcuOqaIoPFaeFUYFvgLBI&_nc_ohc=CYL7TDpjWh4AX8VQl9K&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&oh=00_AfDnBFAhS7wv8liDExXl5101lE6LEsq4-uBqYmJbpMw-qQ&oe=654EA7AC"
@@ -203,6 +229,7 @@
     {
       "id": 27,
       "title": "PLASTIC TAP",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "EASY TO INSTALL, AFFORDABLE, MULTIPURPOSE",
       "image": "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/338913636_226187236620886_375687042096904427_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGesvM405po1N9tiq4G-KElYbPRm9HCT2Rhs9Gb0cJPZKUHX65t_t3SyftLt7LSpy4&_nc_ohc=UlQDuQUd9C4AX9834_W&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfAGtrqpQ4oDpWSzit0A5aOvfEP3kg2Zjyz4vTRsoiXwZA&oe=654E0764"
@@ -211,6 +238,7 @@
     {
       "id": 28,
       "title": "WALL TAP",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "Rust remover and screw releaser with outstanding creep effect. Quickly loosens seized-up metal parts. Protects against corrosion and repels moisture. Rust-loosening, water-repellent and lubricating.",
       "image": "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/327386087_495716586010378_8527919609464613104_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFVAZF0-b3zcR3_fUqAm7eo9nVd3HOlydb2dV3cc6XJ1v1fu6so639bGu-dwqCEiKQ&_nc_ohc=Ya7nE7AOkdIAX_7WLCp&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&oh=00_AfBGGbsXWOROolXnd3yNdmowueHSs40O3SDW7l1PkvXTFg&oe=654E2E27"
@@ -219,6 +247,7 @@
     {
       "id": 29,
       "title": "FLANGE BRACKET",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "WIDELY USED IN BATHOOMS, WARDROBES, BALCONIES, COUNTERS, CLOTHING RAILS & TOWEL RAILS!",
       "image": "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/327428670_898512027957008_7494278230134432038_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFFqSqyhwBJdidhkss3GAHc2qBUdf8J6GzaoFR1_wnobDo6hr7dmNjKmYhUOsaCsf8&_nc_ohc=onk-9AvRhIwAX9h5aoe&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&oh=00_AfBK3lCfn1hQvuY8NsGpEYB-05J-f8wRM71SNINkQMPf0Q&oe=654E5546"
@@ -227,6 +256,7 @@
     {
       "id": 30,
       "title": "TANK CONNECTOR",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "IPS is the markets technological leader. This internationally recognized differential led to the development of the strongest pieces with the smallest diameter in the market!",
       "image": "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/327371316_1323188491855726_3342047462996585255_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHN8Z-tVj7--kH4a2VxfB1j0esA3UhvKbfR6wDdSG8pt3M27-iwDoqsYP8QultadTQ&_nc_ohc=tVBvJGl09A0AX_wU9KK&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&oh=00_AfClyPosR56-tcIbstN7ZgS1XFLMFR7JQed3wirruT8yyA&oe=654FF034"
@@ -235,6 +265,7 @@
     {
       "id": 31,
       "title": "GLASS RAIL",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "GLASS RAIL IDEAL FOR 4MM OR 5MM RAILS",
       "image": "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/314939554_571224068336567_2732652407844070025_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHAQ3RRt4OUwyIX3RZWT4iqJ7aXI6OWr2Mntpcjo5avY-fL95zjs7KanoBLf3ADnuI&_nc_ohc=PLg8GkuodvMAX9-tjRs&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfC3RteE0BnMQZDXKu2cYmKMP1LeXSbWoaECmNkIbEusLA&oe=654F9DA7"
@@ -243,6 +274,7 @@
     {
       "id": 32,
       "title": "HAMMER HEAD",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "STRONG & ROBUST, HEAVY DUTY HEAD IN 29MM PERFECT FOR WHATEVER A HAMMER CAN DO",
       "image": "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/311621508_551684383623869_772562287780537740_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFuaCBL3kevea-rykAoOtLNLHl-z4Ncb5QseX7Pg1xvlNOZ3OuJ1j7-incQU59GvzI&_nc_ohc=5xpxKmRE_FcAX_JSufg&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfALoTDDqMCwq0aoU6VJvdlytSmJsDEue7CyB67hhH7UKQ&oe=654F3287"
@@ -251,6 +283,7 @@
     {
       "id": 33,
       "title": "STOP COCK",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "Suitable for environments with low water pressure. Developed for African conditions that ensure products longevity against the presence of lead & nickel!",
       "image": "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/308364918_1683913398655680_5937844207129610555_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHntqmDjrdCUDD4zBXCfaW8zWdDrZ4dxQDNZ0Otnh3FAAAWM13HnDjqRs9_flGHAuk&_nc_ohc=-FvfElb56rMAX-7PzGQ&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&oh=00_AfDsybRl5fEdZK8m2cUFuCQSlWWvZTKOb6TYLEFucwdz7g&oe=654E70E4"
@@ -259,6 +292,7 @@
     {
       "id": 34,
       "title": "FLEXIBLE TUBE",
+      "price":999,
       "rating":"⭐⭐⭐⭐⭐",
       "description": "PERFECT ADDITION TO YOUR ARABIC SHOWER OR ANY OF YOUR PLUMBING NEEDS.",
       "image": "https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/305341596_1672840316429655_7943174405092779388_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeElrtGIE0hN_jF63NzwlrKSR66mxPC6JrtHrqbE8Lomu6YbXnxfgg4V2XUmvREOqDs&_nc_ohc=4BkV9NnDd1UAX-K1PB8&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&oh=00_AfAMdeMaz9LPDWhiPOipdCJN7JVrKtaKSbYKEcw_KIR7-g&oe=654F11AC"

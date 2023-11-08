@@ -1,0 +1,5 @@
+.products .single__product .part1 {
+    height: 290px;
+    max-height: 290px;
+    position: relative;
+}
