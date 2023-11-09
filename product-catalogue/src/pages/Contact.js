@@ -36,15 +36,15 @@ export default function Contact() {
           <form>
             <div className="mb-3">
               <label htmlFor="name" className="contact-form-label">NAME:</label>
-              <input type="text" className="contact-form-control" id="name" />
+              <input type="text" placeholder="Insert name" className="contact-form-control" id="name" />
             </div>
             <div className="mb-3">
               <label htmlFor="email" className="contact-form-label">EMAIL:</label>
-              <input type="email" className="contact-form-control" id="email" />
+              <input type="email" placeholder="Insert email address" className="contact-form-control" id="email" />
             </div>
             <div>
               <label htmlFor="message" className="contact-form-label">MESSAGES:</label>
-              <textarea className="contact-textarea" id="message" rows="5"></textarea>
+              <textarea className="contact-textarea" placeholder="Type your query here" id="message" rows="5"></textarea>
             </div>
             <button type="submit" className="contact-btn">SUBMIT</button>
           </form>
