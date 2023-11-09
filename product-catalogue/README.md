@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# FINAL-PROJECT-PHASE-2
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### PRODUCT CATALOGUE, (09/11/2023)
 
-## Available Scripts
+#### **CREATED BY JAINAM SHAH**
 
-In the project directory, you can run:
+## Learning Goals
+    - Build a React single page application from scratch
+    - Apply your knowledge of components, props and state management
+    - Design and architect features across a frontend
+    - Communicate and collaborate in a technical environment
+    - IntegrateJSON/API
+    - Incorporate client-side routing 
+    - Learn how to integrate Bootstrap
+    - Debug any issues
 
-### `npm start`
+## Project Description
+    A product catalogue!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Requirements
+    - You must make a single page application (only one index.html file) using create-react-app
+    - Your app should use at least 5 components/6 pages in a way that keeps your code well organized
+    - There should be at least 3 client-side routes using react-routerLinks to an external site.
+  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup/Installation Requirements
+    - Download zip in the code section of github to your desired folder on your device
+    - Extract the files
+    - Open the folder with vs code.
+    - Use create-react-app to generate starter code for your your project. Follow the instructions on the create-react-appLinks to an external site. site to get started.
+    - Then run "json-server --watch database.json" to run back-end server.
+    - The run your your front end, simply cd product-catalogue & run NPM start. 
+    - Your application is running! Ready to go!
+       
+## Live link
+    Deployed Frontend can be accessed in the following link:
+    [PRODUCTS](https://mjainamshah.github.io/.../)
+    
+    Deployed Backend can be accessed in the following link:
+    [PRODUCTS](https://product-catalogue-phase-2.onrender.com/catalogue)
 
-### `npm test`
+## Features
+    - A user can create new products
+    - A user can edit existing products
+    - A user can see all products available.
+    - A user can learn about individual products in the Catalogue
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Known Bugs
+    All  applications fabricated are working well, no issues.
 
-### `npm run build`
+## Technologies used
+    - REACT
+    - JAVASCRIPT
+    - HTML
+    - CSS
+    - BOOTSRAP
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Support and contact details
+    - email :: mjainamshah@gmail.com
+    - phone :: +254721282868
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### License
+    *Licenced under the MIT Licence
+    Copyright (c) 2023 **JAINAM SHAH**

@@ -28,7 +28,7 @@ export default function Contact() {
           </p>
           <br />
           <p className="contact-strong">
-            <strong>Phone:</strong> (+254) 705-235-256 OR (+254) 700 355 663
+            <strong>Phone:</strong> (+254)705-235-256 OR (+254)700-355-663
           </p>
         </div>
         <div className="col-md-6 contact-col">
