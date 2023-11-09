@@ -10,7 +10,7 @@ export default function SingleProduct() {     // SingleProduct component
   const navigate = useNavigate();             // Navigation function for redirecting after deletion
 
   useEffect(() => {                           // Fetch the product data when the component mounts or even when the productId changes
-    axios.get(`http://localhost:3001/products/${productId}`)
+    axios.get(`https://crud-react-oc6v.onrender.com/products/${productId}`)
       .then(response => setProduct(response.data));
   }, [productId]);
 

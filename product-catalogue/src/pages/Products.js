@@ -3,7 +3,7 @@ import "../assets/styles.css"
 import axios from 'axios'
 import { Link } from 'react-router-dom'
 
-const base_URL = "http://localhost:3001/products"// API URL for fetching products
+const base_URL = "https://crud-react-oc6v.onrender.com/products"// API URL for fetching products
 
 export default function Products() {
     const [products, setProducts] = useState([]) // State to hold the list of products

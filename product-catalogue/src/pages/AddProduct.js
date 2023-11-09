@@ -4,7 +4,7 @@ import axios from "axios"
 import { useNavigate } from "react-router-dom"
 
 
-const base_URL = "http://localhost:3001/products" // My base URL for the API
+const base_URL = "https://crud-react-oc6v.onrender.com/products" // My base URL for the API
 
 export default function AddProduct() {
   const { register, handleSubmit } = useForm();   // React Hook Form hook for form handling
@@ -13,9 +13,9 @@ export default function AddProduct() {
     axios.post(base_URL, {                        // Sends a POST request to the API with the form data just like Fetch
       title: data.title,
       price: data.price,
+      rating: data.rating,
       description: data.description,
       image: data.image,
-      rating: data.rating,
     })
       .then(response => {                         // Navigate to the products page after a successful submission
         navigate("/products")

@@ -33,11 +33,11 @@
     - Your application is running! Ready to go!
        
 ## Live link
-    Deployed Frontend can be accessed in the following link:
-    [PRODUCTS](https://mjainamshah.github.io/.../)
+    Deployed Frontend can be accessed in the following link[PRODUCTS]:
+   (https://monumental-melba-54ac03.netlify.app/)
     
-    Deployed Backend can be accessed in the following link:
-    [PRODUCTS](https://product-catalogue-phase-2.onrender.com/catalogue)
+    Deployed Backend can be accessed in the following link  [PRODUCTS]:
+    (https://crud-react-oc6v.onrender.com/products)
 
 ## Features
     - A user can create new products
