@@ -33,13 +33,14 @@ export default function SingleProduct() {
             <img className="card-img-top mb-5 mb-md-0" src={product.image} alt={product.title} />
           </div>
           <div className="col-md-6">
+            <h5>{product.rating}</h5>
             <h1 className="singleTitle">{product.title}</h1>
             <div className="singlePrice mb-3">
               <span>{product.price}KSH</span>
             </div>
             <p className="singleDescription">{product.description}</p>
-            <button onClick={handleEdit}>EDIT</button>
-            <button onClick={handleDelete}>DELETE</button>
+            <button className="singleProductButton btn-lg btn-outline-light" onClick={handleEdit}>EDIT</button>
+            <button className="singleProductButton btn-lg btn-outline-light" onClick={handleDelete}>DELETE</button>
           </div>
         </div>
       </div>

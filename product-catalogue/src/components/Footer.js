@@ -13,7 +13,7 @@ export default function Footer() {
               <li className="nav-item"><a href="#" className="nav-link px-2 text-light fw-normal fs-4">FAQs</a></li>
               <li className="nav-item"><a href="#" className="nav-link px-2 text-light fw-normal fs-4">About</a></li>
             </ul>
-            <h2 className="text-center text-light fw-bold">© 2023 NAIROBI CENTRAL HARWARE LTD.</h2>
+            <h2 className="footerTitle text-center text-light fw-bold">© 2023 NAIROBI CENTRAL HARWARE LTD.</h2>
           </footer>
         </div>
       </div>

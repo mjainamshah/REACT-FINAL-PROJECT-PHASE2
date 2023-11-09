@@ -31,7 +31,7 @@ export default function AddProduct() {
       </div>
       <div className="form-group">
         <label htmlFor="price">PRICE:</label>
-        <input type="text" id="price" className="form-control" {...register("price", { required: true })} placeholder="Insert price:" />
+        <input type="text" id="price" className="form-control" {...register("price", { required: true })} placeholder="Insert price (KSH)" />
       </div>
       <div className="form-group">
         <label htmlFor="description">DESCRIPTION:</label>
