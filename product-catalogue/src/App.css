@@ -117,7 +117,6 @@ h6 {
 #landingImage {
   width: 100%;
   height: auto;
-
 }
 
 #landingText {
@@ -125,9 +124,19 @@ h6 {
   font-size: 35px;
   font-style: italic;
   font-weight: normal;
-  margin-right: 100px;
+  margin-right: 400px;
+  margin-left: 400px;
   font-family: cursive;
 }
+
+#backgroundImage {
+  background-image: url(https://w0.peakpx.com/wallpaper/8/803/HD-wallpaper-red-waves-on-black-background-red-aesthetic.jpg);
+  background-size: 100% 100%;
+  /* Adjust or try 'contain' */
+  height: 725px;
+  /* Adjust the height as needed */
+}
+
 
 .products {
   padding: 20px;
@@ -156,9 +165,10 @@ h6 {
 
 
 
-a{
+a {
   text-decoration: none;
 }
+
 .singlePrice {
   font-size: 50px;
   font-family: cursive;
@@ -180,17 +190,17 @@ a{
 .product__title {
   font-size: 40px !important;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-text-decoration: none;
-color: white;
-font-weight: lighter;
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
 
 }
 
 .product__price {
   font-size: 45px;
   font-weight: bold;
-  color:red;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  color: red;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 .fs-5 {
@@ -202,7 +212,8 @@ font-weight: lighter;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px; /* Adjust this value as needed */
+  margin-top: 50px;
+  /* Adjust this value as needed */
   max-width: 75%;
 }
 
@@ -210,7 +221,8 @@ font-weight: lighter;
   font-size: 80px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: 1.5px;
-  margin-bottom: 20px; /* Add some bottom margin for better spacing */
+  margin-bottom: 20px;
+  /* Add some bottom margin for better spacing */
 }
 
 .form-group {
@@ -309,7 +321,7 @@ button {
 
 .contact-form-label {
   font-weight: bold;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .contact-form-control {
