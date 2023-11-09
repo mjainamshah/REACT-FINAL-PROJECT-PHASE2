@@ -16,13 +16,10 @@ export default function SingleProduct() {
 
   const handleEdit = () => {
     setIsEditing(true);
-    // Copy the current product to the editedProduct state
     setEditedProduct({ ...product });
   };
 
   const handleSave = () => {
-    // Make an API call to update the product with editedProduct data
-    // Update the product state with the response from the API call
     axios.put(`http://localhost:3001/products/${productId}`, editedProduct)
       .then(response => {
         setProduct(response.data);
@@ -38,7 +35,7 @@ export default function SingleProduct() {
       axios.delete(`http://localhost:3001/products/${productId}`)
         .then(response => {
           console.log('Product deleted successfully:', response);
-          navigate('/Products'); 
+          navigate('/Products');
         })
         .catch(error => {
           console.error('Error deleting product:', error);
@@ -60,43 +57,43 @@ export default function SingleProduct() {
               <span>{product.price}KSH</span>
             </div>
             {isEditing ? (
-  <div>
-    <label htmlFor="editTitle">Title:</label>
-    <input
-      type="text"
-      id="editTitle"
-      value={editedProduct.title || ""}
-      onChange={(e) => setEditedProduct({ ...editedProduct, title: e.target.value })}
-      style={{ color: 'black' }} 
-    />
-    <label htmlFor="editRating">Rating:</label>
-    <input
-      type="text"
-      id="editRating"
-      value={editedProduct.rating || ""}
-      onChange={(e) => setEditedProduct({ ...editedProduct, rating: e.target.value })}
-      style={{ color: 'black' }} // Add this line for black text
-    />
-    <label htmlFor="editPrice">Price:</label>
-    <input
-      type="text"
-      id="editPrice"
-      value={editedProduct.price || ""}
-      onChange={(e) => setEditedProduct({ ...editedProduct, price: e.target.value })}
-      style={{ color: 'black' }} // Add this line for black text
-    />
-    <label htmlFor="editDescription">Description:</label>
-    <textarea
-      id="editDescription"
-      value={editedProduct.description || ""}
-      onChange={(e) => setEditedProduct({ ...editedProduct, description: e.target.value })}
-      style={{ color: 'black' }} // Add this line for black text
-    />
-    <button className="btn btn-primary" onClick={handleSave}>Save</button>
-  </div>
-) : (
-  <p className="singleDescription">{product.description}</p>
-)}
+              <div>
+                <label htmlFor="editTitle">Title:</label>
+                <input
+                  type="text"
+                  id="editTitle"
+                  value={editedProduct.title || ""}
+                  onChange={(e) => setEditedProduct({ ...editedProduct, title: e.target.value })}
+                  style={{ color: 'black' }}
+                />
+                <label htmlFor="editRating">Rating:</label>
+                <input
+                  type="text"
+                  id="editRating"
+                  value={editedProduct.rating || ""}
+                  onChange={(e) => setEditedProduct({ ...editedProduct, rating: e.target.value })}
+                  style={{ color: 'black' }}
+                />
+                <label htmlFor="editPrice">Price:</label>
+                <input
+                  type="text"
+                  id="editPrice"
+                  value={editedProduct.price || ""}
+                  onChange={(e) => setEditedProduct({ ...editedProduct, price: e.target.value })}
+                  style={{ color: 'black' }}
+                />
+                <label htmlFor="editDescription">Description:</label>
+                <textarea
+                  id="editDescription"
+                  value={editedProduct.description || ""}
+                  onChange={(e) => setEditedProduct({ ...editedProduct, description: e.target.value })}
+                  style={{ color: 'black' }}
+                />
+                <button className="btn btn-primary" onClick={handleSave}>Save</button>
+              </div>
+            ) : (
+              <p className="singleDescription">{product.description}</p>
+            )}
             <button className="singleProductButton btn-lg btn-outline-light" onClick={handleEdit}>EDIT</button>
             <button className="singleProductButton btn-lg btn-outline-light" onClick={handleDelete}>DELETE</button>
           </div>

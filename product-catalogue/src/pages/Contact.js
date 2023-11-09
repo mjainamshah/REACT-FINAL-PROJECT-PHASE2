@@ -18,10 +18,10 @@ export default function Contact() {
           </p>
           <br />
           <p className="contact-strong">
-            <strong>Sales Email:</strong> <br/> sales.nchl@gmail.com
+            <strong>Sales Email:</strong> <br /> sales.nchl@gmail.com
           </p>
           <p className="contact-strong">
-            <strong>Finance Email:</strong> <br/> finance.nchl@gmail.com
+            <strong>Finance Email:</strong> <br /> finance.nchl@gmail.com
           </p>
           <p className="contact-strong">
             <strong>Human Resources Email:</strong> humanresource.nchl@gmail.com
