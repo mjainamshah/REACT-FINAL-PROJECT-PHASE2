@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import axios from "axios";
 
 export default function SingleProduct() {
   const { productId } = useParams();
   const [product, setProduct] = useState([]);
+  const [isEditing, setIsEditing] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     axios.get(`http://localhost:3001/products/${productId}`)
@@ -12,12 +14,15 @@ export default function SingleProduct() {
   }, [productId]);
 
   const handleEdit = () => {
+    setIsEditing(true);
   };
 
   const handleDelete = () => {
     if (window.confirm('Are you sure you want to delete this product?')) {
       axios.delete(`http://localhost:3001/products/${productId}`)
         .then(response => {
+          console.log('Product deleted successfully:', response);
+          navigate('/Products'); 
         })
         .catch(error => {
           console.error('Error deleting product:', error);
@@ -38,7 +43,15 @@ export default function SingleProduct() {
             <div className="singlePrice mb-3">
               <span>{product.price}KSH</span>
             </div>
-            <p className="singleDescription">{product.description}</p>
+            {isEditing ? (
+              <div>
+                {/* Render editable fields here */}
+                {/* Example: */}
+                <input type="text" value={product.title} onChange={(e) => setProduct({ ...product, title: e.target.value })} />
+              </div>
+            ) : (
+              <p className="singleDescription">{product.description}</p>
+            )}
             <button className="singleProductButton btn-lg btn-outline-light" onClick={handleEdit}>EDIT</button>
             <button className="singleProductButton btn-lg btn-outline-light" onClick={handleDelete}>DELETE</button>
           </div>
