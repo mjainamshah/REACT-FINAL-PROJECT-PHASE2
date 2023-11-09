@@ -22,7 +22,7 @@ export default function AddProduct() {
   }
 
   return (
-    <form className="container my-1" onSubmit={handleSubmit(onSubmit)}>
+    <form id="productForm"className="container my-1" onSubmit={handleSubmit(onSubmit)}>
       <div>
         <h1 className="formTitle">CREATE A NEW PRODUCT!</h1>
       </div>

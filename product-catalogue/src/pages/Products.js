@@ -38,7 +38,7 @@ export default function Products() {
                                     <div className="part2">
                                         <h5 className="product__rating">{product.rating}</h5>
                                         <h3 className="product__title">{product.title}</h3>
-                                        <h4 className="product__price">{product.price}/-</h4>
+                                        <h3 className="product__price">{product.price}/-</h3>
                                     </div>
                                 </div>
                             </Link>

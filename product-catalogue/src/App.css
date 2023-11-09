@@ -154,11 +154,11 @@ h6 {
   font-family: cursive;
 }
 
-.singleTitle {
-  font-size: 80px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
 
+
+a{
+  text-decoration: none;
+}
 .singlePrice {
   font-size: 50px;
   font-family: cursive;
@@ -178,18 +178,19 @@ h6 {
 }
 
 .product__title {
-  font-size: 40px;
-  font-weight: normal;
-  color: #fff;
+  font-size: 40px !important;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  text-decoration: none;
+text-decoration: none;
+color: white;
+font-weight: lighter;
+
 }
 
 .product__price {
-  font-size: 16px;
+  font-size: 45px;
   font-weight: bold;
-  color: #fff;
-  margin-top: 10px;
+  color:red;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 .fs-5 {
@@ -197,21 +198,19 @@ h6 {
   margin-bottom: 20px;
 }
 
-form {
-  max-width: 500px;
-  margin: 20 auto;
-  padding: 20px;
-  background-color: black;
-  border: 3px solid white;
+#productForm {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 50px; /* Adjust this value as needed */
+  max-width: 75%;
 }
 
 .formTitle {
   font-size: 80px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: 1.5px;
+  margin-bottom: 20px; /* Add some bottom margin for better spacing */
 }
 
 .form-group {
@@ -221,6 +220,7 @@ form {
   font-size: 25px;
   letter-spacing: 1px;
 }
+
 
 .addProductBtn {
   background-color: white;
@@ -276,7 +276,7 @@ button {
 
 .contact-text {
   font-size: 30px;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
   font-family: fantasy;
   color: rgb(144, 0, 0);
   font-weight: bolder;
@@ -309,19 +309,20 @@ button {
 
 .contact-form-label {
   font-weight: bold;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .contact-form-control {
   width: 100%;
   padding: 25px;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
   color: black;
 }
 
 .contact-textarea {
   width: 100%;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: black;
 }
 

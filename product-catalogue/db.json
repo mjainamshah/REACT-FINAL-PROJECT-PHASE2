@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "SLEDGE HAMMER",
-      "price": 1000,
+      "price": "999",
       "rating": "⭐⭐⭐⭐⭐",
       "description": "A POWERFUL & HEAVY tool used in various applications, primarily for heavy-duty demolition, construction, and industrial tasks!",
       "image": "https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/355850604_763659825759656_5202353560773312753_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFGXg-_soOB9L9a0zA2itUgnqkcOgbHUQieqRw6BsdRCFOa8W9DdYrNNqlaJ6U3iUc&_nc_ohc=FdVIWvpmniAAX_-MnyG&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfCFBCxJFnJoAgAX_6aORzuPQJuTcLeU5lAwrL0B1UdkNw&oe=654E7EDC"
@@ -90,7 +90,7 @@
     },
     {
       "id": 12,
-      "title": "STOP COCK CONCEALED",
+      "title": "STOP COCK",
       "price": 3500,
       "rating": "⭐⭐⭐⭐⭐",
       "description": "Suitable for environments with low water pressure. Developed for African conditions that ensure products LONGEVITY against the presence of LEAD & NICKET!",
