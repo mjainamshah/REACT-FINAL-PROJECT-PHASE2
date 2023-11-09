@@ -2,24 +2,24 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import axios from "axios";
 
-export default function SingleProduct() {
-  const { productId } = useParams();
-  const [product, setProduct] = useState({});
-  const [editedProduct, setEditedProduct] = useState({});
+export default function SingleProduct() {     // SingleProduct component
+  const { productId } = useParams();          // Get the productId from the route parameters
+  const [product, setProduct] = useState({}); // State to hold the product data
+  const [editedProduct, setEditedProduct] = useState({}); // State for handling editing of products
   const [isEditing, setIsEditing] = useState(false);
-  const navigate = useNavigate();
+  const navigate = useNavigate();             // Navigation function for redirecting after deletion
 
-  useEffect(() => {
+  useEffect(() => {                           // Fetch the product data when the component mounts or even when the productId changes
     axios.get(`http://localhost:3001/products/${productId}`)
       .then(response => setProduct(response.data));
   }, [productId]);
 
-  const handleEdit = () => {
+  const handleEdit = () => {                  // Function to handle entering edit mode
     setIsEditing(true);
     setEditedProduct({ ...product });
   };
 
-  const handleSave = () => {
+  const handleSave = () => {                  // Function to handle saving the edited product
     axios.put(`http://localhost:3001/products/${productId}`, editedProduct)
       .then(response => {
         setProduct(response.data);
@@ -30,7 +30,7 @@ export default function SingleProduct() {
       });
   };
 
-  const handleDelete = () => {
+  const handleDelete = () => {                // Function to handle product deletion
     if (window.confirm('Are you sure you want to delete this product?')) {
       axios.delete(`http://localhost:3001/products/${productId}`)
         .then(response => {

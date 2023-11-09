@@ -3,25 +3,29 @@ import { useForm } from "react-hook-form";
 import axios from "axios"
 import { useNavigate } from "react-router-dom"
 
-const base_URL = "http://localhost:3001/products"
+
+const base_URL = "http://localhost:3001/products" // My base URL for the API
 
 export default function AddProduct() {
-  const { register, handleSubmit } = useForm();
-  const navigate = useNavigate();
-  const onSubmit = (data) => {
-    axios.post(base_URL, {
+  const { register, handleSubmit } = useForm();   // React Hook Form hook for form handling
+  const navigate = useNavigate();                 // React Router hook for navigation
+  const onSubmit = (data) => {                    // Function to handle form submission
+    axios.post(base_URL, {                        // Sends a POST request to the API with the form data just like Fetch
       title: data.title,
       price: data.price,
       description: data.description,
       image: data.image,
       rating: data.rating,
     })
-      .then(response => {
+      .then(response => {                         // Navigate to the products page after a successful submission
         navigate("/products")
       })
+      .catch(error => {                           // Handles any errors if needed
+        console.error("Error submitting form:", error);
+      });
   }
 
-  return (
+  return (                                        // Form for adding a new Product
     <form id="productForm"className="container my-1" onSubmit={handleSubmit(onSubmit)}>
       <div>
         <h1 className="formTitle">CREATE A NEW PRODUCT!</h1>

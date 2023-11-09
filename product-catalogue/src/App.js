@@ -8,8 +8,9 @@ import Products from './pages/Products';
 import Navbar from './components/Navbar';
 import LandingPage from './pages/LandingPage';
 import Footer from './components/Footer'
+//Imported necessary dependencies & components for the application, including styling!
 
-
+//Displaying structure of my application as well as th various routes for different pages/components
 function App() {
   return (
     <>

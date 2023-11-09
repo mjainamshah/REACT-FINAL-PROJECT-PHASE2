@@ -1,9 +1,9 @@
 import React from 'react'
-import img8 from '../images/img8.jpg'
 
+// Information regarding my About Us component/page
 export default function About() {
   return (
-    <div id="backgroundImage" className="container">
+    <div id="backgroundImage" className="container mb-3">
       <h1 id="landingTitle">ABOUT US</h1>
       <div>
         <p id="landingText" className="text-white fst-italic text-center px-5 py-0 ">

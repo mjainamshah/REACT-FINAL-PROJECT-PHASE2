@@ -70,7 +70,7 @@ h6 {
 
 .navbar-nav .nav-link {
   font-size: 25px;
-  color: white !important;
+  color: white !important; 
   text-decoration: none;
   transition: color 0.3s;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -132,9 +132,7 @@ h6 {
 #backgroundImage {
   background-image: url(https://w0.peakpx.com/wallpaper/8/803/HD-wallpaper-red-waves-on-black-background-red-aesthetic.jpg);
   background-size: 100% 100%;
-  /* Adjust or try 'contain' */
-  height: 725px;
-  /* Adjust the height as needed */
+  height: 739px;
 }
 
 
@@ -357,6 +355,15 @@ button {
   font-size: larger;
 }
 
+/* #footerBackground {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+} */
+
 .footer {
   background-color: black;
   color: #fff;
@@ -370,7 +377,7 @@ button {
 
 #footerStyling {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   font-style: italic;
 }
 

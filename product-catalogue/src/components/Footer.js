@@ -1,6 +1,7 @@
 import React from 'react';
 
-export default function Footer() {
+export default function Footer() { //Created footer with links to components & contact information
+
   return (
     <>
       <div id="footerBackground">
@@ -34,14 +35,10 @@ export default function Footer() {
               </li>
             </ul>
             <div className="text-center">
-              <h2 className="footerTitle text-light fw-bold">NAIROBI CENTRAL HARWARE LTD © .</h2>
+              <h2 className="footerTitle text-light fw-bold">NAIROBI CENTRAL HARWARE LTD. ©</h2>
               <p>
-                EMAIL: <a href="mailto:sales.nchl@gmail.com" className="text-light">sales.nchl@gmail.com</a>
-              </p>
-              <p>
-                CONTACT: <a href="tel:+254705235256" className="text-light">(+254) 705-235-256</a>
-              </p>
-              <p>
+                EMAIL: <a href="mailto:sales.nchl@gmail.com" className="text-light">sales.nchl@gmail.com</a> |
+                CONTACT: <a href="tel:+254705235256" className="text-light">(+254) 705-235-256</a> |
                 FACEBOOK: <a href="https://web.facebook.com/nairobicentralhardware" className="text-light">Nairobi Central Hardware</a>
               </p>
             </div>

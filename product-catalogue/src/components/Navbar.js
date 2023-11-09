@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+export default function Navbar() { // Created Navbar with 5 main components (links)
 
-export default function Navbar() {
     return (
         <div id="navbar">
             <nav className="navbar navbar-expand-lg navbar-light">

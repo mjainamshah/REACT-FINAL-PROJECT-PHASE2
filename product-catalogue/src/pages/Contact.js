@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Contact() {
+export default function Contact() { // Contact us page with contact details & a Contact form
   return (
     <div className="contact-container my-5">
       <h1 className="contact-heading">Contact Us</h1>

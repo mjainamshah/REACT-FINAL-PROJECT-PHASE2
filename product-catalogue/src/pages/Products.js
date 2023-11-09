@@ -3,19 +3,22 @@ import "../assets/styles.css"
 import axios from 'axios'
 import { Link } from 'react-router-dom'
 
-const base_URL = "http://localhost:3001/products"
+const base_URL = "http://localhost:3001/products"// API URL for fetching products
 
 export default function Products() {
-    const [products, setProducts] = useState([])
+    const [products, setProducts] = useState([]) // State to hold the list of products
 
 
-    useEffect(() => {
+    useEffect(() => {                            // Fetch products data from the API when the component mounts
         axios.get(base_URL)
             .then(response => setProducts(response.data))
-    }, [])
-    console.log(products)
+            .catch(error => {                    // Handle any errors if needed
+                console.error("Error fetching products:", error);
+            });
+    }, [])                                       // console.log(products)
 
-    return (
+
+    return (                                     // Display the products / Render the component
         <section className="products py-1 mb-3">
             <div className="container">
                 <div className="row justify-content-center text-center">
@@ -28,7 +31,7 @@ export default function Products() {
                     </div>
                 </div>
                 <div className="row">
-                    {products.map((product) => (
+                    {products.map((product) => ( 
                         <div className="col-md-6 col-lg-4 col-xl-3" key={product.id}>
                             <Link to={`/product/${product.id}`}>
                                 <div className="single__product">
