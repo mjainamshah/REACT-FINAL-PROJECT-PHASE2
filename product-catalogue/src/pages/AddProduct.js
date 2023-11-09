@@ -10,36 +10,38 @@ export default function AddProduct() {
   const navigate = useNavigate();
   const onSubmit = (data) => {
     axios.post(base_URL, {
-      title:data.title,
-      price:data.price,
-      description:data.description,
-      image:data.image
+      title: data.title,
+      price: data.price,
+      description: data.description,
+      image: data.image
     })
-    .then (response => {
+    .then(response => {
       navigate("/products")
     })
   }
-  
 
   return (
-    <form className="container" onSubmit={handleSubmit(onSubmit)}>
+    <form className="container my-1" onSubmit={handleSubmit(onSubmit)}>
+      <div>
+        <h1 className="formTitle">CREATE A NEW PRODUCT!</h1>
+      </div>
       <div className="form-group">
-        <label htmlFor="name">ITEM NAME:</label>
-        <input type="text" className="form-control" {...register("title", { required: true })} placeholder="Insert item name" />
+        <label htmlFor="title">ITEM NAME:</label>
+        <input type="text" id="title" className="form-control" {...register("title", { required: true })} placeholder="Insert item name" />
       </div>
       <div className="form-group">
         <label htmlFor="price">PRICE:</label>
-        <input type="text" className="form-control" {...register("price", { required: true })} placeholder="Insert price:" />
+        <input type="text" id="price" className="form-control" {...register("price", { required: true })} placeholder="Insert price:" />
       </div>
       <div className="form-group">
         <label htmlFor="description">DESCRIPTION:</label>
-        <textarea className="form-control" {...register("description", { required: true })} placeholder="Insert your description" rows="3"></textarea>
+        <textarea id="description" className="form-control" {...register("description", { required: true })} placeholder="Insert your description" rows="3"></textarea>
       </div>
       <div className="form-group">
-        <label htmlFor="url">IMAGE URL:</label>
-        <input type="text" className="form-control" {...register("image", { required: true })} placeholder="Insert image URL" />
+        <label htmlFor="image">IMAGE URL:</label>
+        <input type="text" id="image" className="form-control" {...register("image", { required: true })} placeholder="Insert image URL" />
       </div>
-      <button type="button" className="addProductBtn">ADD PRODUCT!</button>
+      <button type="submit" className="addProductBtn">ADD PRODUCT!</button>
     </form>
   )
 }

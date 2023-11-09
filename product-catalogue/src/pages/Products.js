@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 
 const base_URL = "http://localhost:3001/products"
 
-
 export default function Products() {
     const [products, setProducts] = useState([])
 
