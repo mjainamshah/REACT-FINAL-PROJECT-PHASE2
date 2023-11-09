@@ -13,11 +13,12 @@ export default function AddProduct() {
       title: data.title,
       price: data.price,
       description: data.description,
-      image: data.image
+      image: data.image,
+      rating: data.rating,
     })
-    .then(response => {
-      navigate("/products")
-    })
+      .then(response => {
+        navigate("/products")
+      })
   }
 
   return (
@@ -40,6 +41,16 @@ export default function AddProduct() {
       <div className="form-group">
         <label htmlFor="image">IMAGE URL:</label>
         <input type="text" id="image" className="form-control" {...register("image", { required: true })} placeholder="Insert image URL" />
+      </div>
+      <div className="form-group">
+        <label htmlFor="rating">RATING:</label>
+        <select id="rating" className="form-control" {...register('rating', { required: true })}>
+          <option value="⭐">⭐</option>
+          <option value="⭐⭐">⭐⭐</option>
+          <option value="⭐⭐⭐">⭐⭐⭐</option>
+          <option value="⭐⭐⭐⭐">⭐⭐⭐⭐</option>
+          <option value="⭐⭐⭐⭐⭐">⭐⭐⭐⭐⭐</option>
+        </select>
       </div>
       <button type="submit" className="addProductBtn">ADD PRODUCT!</button>
     </form>
