@@ -20,7 +20,7 @@ export default function SingleProduct() {     // SingleProduct component
   };
 
   const handleSave = () => {                  // Function to handle saving the edited product
-    axios.put(`http://localhost:3001/products/${productId}`, editedProduct)
+    axios.put(`https://crud-react-oc6v.onrender.com/products/${productId}`, editedProduct)
       .then(response => {
         setProduct(response.data);
         setIsEditing(false);
@@ -32,7 +32,7 @@ export default function SingleProduct() {     // SingleProduct component
 
   const handleDelete = () => {                // Function to handle product deletion
     if (window.confirm('Are you sure you want to delete this product?')) {
-      axios.delete(`http://localhost:3001/products/${productId}`)
+      axios.delete(`https://crud-react-oc6v.onrender.com/products/${productId}`)
         .then(response => {
           console.log('Product deleted successfully:', response);
           navigate('/Products');
