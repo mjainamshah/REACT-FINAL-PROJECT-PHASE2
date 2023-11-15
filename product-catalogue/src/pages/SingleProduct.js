@@ -10,7 +10,7 @@ export default function SingleProduct() {     // SingleProduct component
   const navigate = useNavigate();             // Navigation function for redirecting after deletion
 
   useEffect(() => {                           // Fetch the product data when the component mounts or even when the productId changes
-    axios.get(`https://crud-react-oc6v.onrender.com/products/${productId}`)
+    axios.get(`https://crud-react-oc6v.onrender.com/PRODUCTS/${productId}`)
       .then(response => setProduct(response.data));
   }, [productId]);
 
@@ -20,7 +20,7 @@ export default function SingleProduct() {     // SingleProduct component
   };
 
   const handleSave = () => {                  // Function to handle saving the edited product
-    axios.put(`https://crud-react-oc6v.onrender.com/products/${productId}`, editedProduct)
+    axios.put(`https://crud-react-oc6v.onrender.com/PRODUCTS/${productId}`, editedProduct)
       .then(response => {
         setProduct(response.data);
         setIsEditing(false);
@@ -32,7 +32,7 @@ export default function SingleProduct() {     // SingleProduct component
 
   const handleDelete = () => {                // Function to handle product deletion
     if (window.confirm('Are you sure you want to delete this product?')) {
-      axios.delete(`https://crud-react-oc6v.onrender.com/products/${productId}`)
+      axios.delete(`https://crud-react-oc6v.onrender.com/PRODUCTS/${productId}`)
         .then(response => {
           console.log('Product deleted successfully:', response);
           navigate('/Products');
